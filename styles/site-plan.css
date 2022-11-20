@@ -26,7 +26,9 @@ Fonts are separated by a | */
   --nav-hover-background-color: #ffaa00;
 }
 
-
+.images img{
+  width: 75%;
+}
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -64,7 +66,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
