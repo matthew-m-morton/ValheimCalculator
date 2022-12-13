@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-.home-description h1{
+.page-description h1{
     text-align: center;
     margin-top: 20px;
     font-size: 60px;
 }
 
-.home-description p{
+.page-description p{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -114,14 +114,14 @@ h1, h2, h3, h4, h5, h6 {
     grid-row: 1/4;
 }
 
-.image-with-text h6{
+.image-with-text h4{
     text-align: left;
     grid-column: 1/3;
     grid-row: 2/3;
     z-index: 2;
 }
 
-.image-with-text h6 span{
+.image-with-text h4 span{
     background: #870000;
     padding: 2px;    
     padding-left: 20px;    
@@ -225,4 +225,49 @@ h1, h2, h3, h4, h5, h6 {
 #yagluth-home{
     grid-column: 3/4;
     grid-row: 6/7;
+}
+
+
+/* --------BIOMES GUIDE PAGE START------- */
+
+
+/* warning section */
+.warning{
+    background-color:#c60000;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.warning span{
+    font-size: 25px;
+}
+
+/* information section */
+.info{
+    font-size: 20px;
+    background-color: #ff6100;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+}
+.info p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left-info{
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/* --------BIOMES GUIDE PAGE START------- */
+.bosses-body{
+    margin-left: 10%;
+    margin-right: 10%;
 }
