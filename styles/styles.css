@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     grid-column: 2/3;
     grid-row: 1/4;
-    z-index: -1;
+
 }
 
 .image-with-text a, .image-with-text h4{
@@ -279,6 +279,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #c60000;
     margin: 20px;
     padding-top: 2.5px;
+}
+.synopsis{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.synopsis p{
+    grid-column: 2/3;
 }
 
 .stats{
