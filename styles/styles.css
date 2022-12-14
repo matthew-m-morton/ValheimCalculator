@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;
 }
 
-.image-with-text a{
+.image-with-text a, .image-with-text h4{
     text-align: left;
     grid-column: 1/3;
     grid-row: 2/3;
